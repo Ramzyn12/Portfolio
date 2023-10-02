@@ -23,8 +23,8 @@ const Projects = () => {
             </h1>
             <p className="p-3 rounded-md mt-5 font-sans tracking-widest font-lg bg-[#082e63] text-slate-300">
               Full stack web app that integrates facial expression recognition
-              with Spotify's music recommendation algorithm to offer
-              personalised playlists based on the user's current emotion. Add
+              with Spotify&apos;s music recommendation algorithm to offer
+              personalised playlists based on the user&apos;s current emotion. Add
               daily notes and save your songs to revisit them via an interactive
               calender which holds a journal of your personal liked tracks,
               notes and saved emotions.

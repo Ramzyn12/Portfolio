@@ -15,7 +15,7 @@ const Story = () => {
           and an AI course I took at university.
         </p> */}
         <p className="text-slate-400 font-sans mt-1 sm:text-lg">
-          Hello! I'm Ramzy, a Maths with Economics graduate from the London School of
+          Hello! I&apos;m Ramzy, a Maths with Economics graduate from the London School of
           Economics. I was first introduced to coding through a Machine Learning
           and an AI course I took at university.
         </p>
