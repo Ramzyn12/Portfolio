@@ -8,6 +8,8 @@ import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [isShowNav, setIsShowNav] = useState(false);
+  const resumeLink =
+    "https://docs.google.com/document/d/19KyAKQ7lUoMQmMMpK0kI-EIvkpp0wKpJBbVph3nfXzg/preview";
 
   const slideInVariants = {
     hidden: {
@@ -119,7 +121,12 @@ const Navbar = () => {
             </li>
           </ScrollLink>
           <li className="cursor-pointer relative transform transition-transform duration-300 hover:-translate-y-1">
-            <a className="py-2 px-4 border-2 hover:text-blue-500 hover:border-blue-500 duration-300 text-white rounded-xl border-white">
+            <a
+              href={resumeLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="py-2 px-4 border-2 hover:text-blue-500 hover:border-blue-500 duration-300 text-white rounded-xl border-white"
+            >
               Resume
             </a>
           </li>
@@ -202,6 +209,9 @@ const Navbar = () => {
             </ScrollLink>
             <li className="  cursor-pointer hover:text-blue-500 transition duration-300 relative">
               <a
+                href={resumeLink}
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setIsShowNav(false)}
                 className="py-2 px-4 border-2 text-white rounded-xl border-white "
               >
